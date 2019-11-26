@@ -3,9 +3,9 @@ import { Row, Col } from 'reactstrap';
 import Slide from 'react-reveal/Slide';
 import Zoom from 'react-reveal/Zoom';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '../../css/ThisIsMe';
+import '../../../css/ThisIsMe';
 
-const Me = require('../../img/assets/mm.jpeg');
+const Me = require('../../../img/assets/mm.jpeg');
 
 export default class ThisIsMe extends React.Component {
     constructor() {

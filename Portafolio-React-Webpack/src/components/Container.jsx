@@ -1,7 +1,7 @@
 import React from 'react';
 import { Parallax } from 'react-parallax';
 import HeaderText from './header/HeaderText';
-import ThisIsMe from './body/ThisIsMe';
+import ThisIsMe from './body/me/ThisIsMe';
 import Experiences from './body/experience/Experiences';
 import Zoom from 'react-reveal/Zoom';
 import Skills from './body/skills/Skills';
