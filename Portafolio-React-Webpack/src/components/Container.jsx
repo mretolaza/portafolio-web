@@ -1,11 +1,10 @@
 import React from 'react';
-import { Parallax, Background } from 'react-parallax';
-import Header from './header/Header';
-import AboutMe from './main/AboutMe';
-import Phrase from './main/phrase';
+import { Parallax } from 'react-parallax';
+import HeaderText from './header/HeaderText';
+import ThisIsMe from './main/ThisIsMe';
 import Experiences from './main/Experiences';
-import Abilities from './main/Abilities';
 import Zoom from 'react-reveal/Zoom';
+import Skills from './main/Skills';
 import '../css/global';
 
 export default class Container extends React.Component {
@@ -34,11 +33,11 @@ export default class Container extends React.Component {
         window.addEventListener('scroll', this.handleScroll);
         return (
             <div>
-                <Header />
+                <HeaderText />
                 <Parallax
                     blur={0}
                     bgImage={require('../images/skyme.JPG')}
-                    bgImageAlt="Skeme"
+                    bgImageAlt="Rotaract"
                     strength={200}
                 >
                     <Zoom>
@@ -46,18 +45,10 @@ export default class Container extends React.Component {
                     </Zoom>
                 </Parallax>
                 <main>
-                    <AboutMe />
-                    <Phrase />
+                    <ThisIsMe />
                     <Experiences />
-                    <Abilities />
+                    <Skills />
                 </main>
-                <Parallax
-                    blur={{ min: -15, max: 15 }}
-                    bgImage={require('../images/skyme.JPG')}
-                    bgImageAlt="the dog"
-                    strength={-200}
-                >
-                </Parallax>
             </div>
         );
     }

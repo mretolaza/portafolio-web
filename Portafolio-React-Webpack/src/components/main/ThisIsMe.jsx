@@ -1,13 +1,13 @@
 import React from 'react';
-import '../../css/AboutMe';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import { Row, Col } from 'reactstrap';
 import Slide from 'react-reveal/Slide';
 import Zoom from 'react-reveal/Zoom';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import '../../css/ThisIsMe';
 
 const Me = require('../../images/mm.jpeg');
 
-export default class AboutMe extends React.Component {
+export default class ThisIsMe extends React.Component {
     constructor() {
         super();
         this.state = { show: false };
@@ -34,6 +34,8 @@ export default class AboutMe extends React.Component {
                                     <p className='p-am'>22 </p>
                                     <h4 className='h4-am'>Location: </h4>
                                     <p className='p-am'>Guatemala City, Guatemala </p>
+                                    <h4 className='h4-am'>Number: </h4>
+                                    <p className='p-am'>+502 4300-0805</p>
                                 </div>
                             </Slide>
                         </Col>

@@ -1,8 +1,8 @@
 import React from 'react';
-import '../../css/Experiences';
-import ModExp from './ExpModule';
+import ContExp from './ExpContainer';
 import Flip from 'react-reveal/Flip';
 import LightSpeed from 'react-reveal/LightSpeed';
+import '../../css/Experiences';
 
 const school = require('../../images/Icons/school.png');
 const gears = require('../../images/Icons/gears.png');
@@ -14,11 +14,11 @@ export default class Experiences extends React.Component {
         return (
             <section>
                 <div id='experiences' className='div1-exp'>
-                    <div  className='div-title-exp'><h3 className='title-exp'>Experiences</h3></div>
+                    <div  className='div-title'><h3 className='title-exp'>Experiences</h3></div>
                     <div className='div2-exp'>                       
                         <div ><h4 className='edu-exp'>Education</h4></div>
                         <Flip bottom>
-                            <ModExp 
+                            <ContExp 
                                 Name='Universidad del Valle de Guatemala' 
                                 Date='Jan 2016 - Nov 2023 (expected graduation date)' 
                                 Acknowledgment='Computer Science and Information Technologies Engineer' 
@@ -26,20 +26,20 @@ export default class Experiences extends React.Component {
                                 and I love UI/UX experience. I am making my experience at the university a unique experience I learn 
                                 every day and every moment something new. "
                                 src={code}>                        
-                            </ModExp>
-                            <ModExp 
+                            </ContExp>
+                            <ContExp 
                                 Name='Colegio Suizo Americano' 
                                 Date='Jan 2002 - Oct 2015' 
                                 Acknowledgment='Primary - Middle School Studies - Bach' 
                                 Description="I obtained a medal of excellence and experience for my stay for 16 years and my excellent behavior 
                                 in the school. I was a <bach> in computer science and I learned to program from the age of 13."
                                 src={school}>                        
-                            </ModExp>
+                            </ContExp>
                         </Flip>   
                         <div className='div-line'></div>
                         <div><h4 className='edu-exp'>Work Experience</h4></div>  
                         <LightSpeed left>
-                            <ModExp 
+                            <ContExp 
                                 Name='Ciklo S.A' 
                                 Date='Dic 2018 - Today' 
                                 Acknowledgment='Lead of QA Assurance ' 
@@ -48,8 +48,8 @@ export default class Experiences extends React.Component {
                                 electronic devices as electronic balances, sealers, labellers and more. It was a good 
                                 experience realize how it feels to have a full time job."
                                 src={gears}>                        
-                            </ModExp> 
-                            <ModExp 
+                            </ContExp> 
+                            <ContExp 
                                 Name='Inédito S.A' 
                                 Date='Sep 2018 - Dic 2018' 
                                 Acknowledgment='Project Manager  + SCRUM Master' 
@@ -58,8 +58,8 @@ export default class Experiences extends React.Component {
                                 electronic devices as electronic balances, sealers, labellers and more. It was a good 
                                 experience realize how it feels to have a full time job."
                                 src={gears}>                        
-                            </ModExp>
-                            <ModExp 
+                            </ContExp>
+                            <ContExp 
                                 Name='Startrack S.A' 
                                 Date='Jun 2017 - Ago 2018' 
                                 Acknowledgment='Frontend Developer' 
@@ -68,7 +68,7 @@ export default class Experiences extends React.Component {
                                 electronic devices as electronic balances, sealers, labellers and more. It was a good 
                                 experience realize how it feels to have a full time job."
                                 src={gears}>                        
-                            </ModExp>
+                            </ContExp>
                         </LightSpeed>                      
                     </div>
                 </div>

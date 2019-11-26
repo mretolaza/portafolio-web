@@ -14,9 +14,6 @@ export default class HeaderNav extends React.Component {
                 <li className='header-nav-in'>
                     <a className='anchorHover' href="#skills">Skills</a>
                 </li>
-                <li className='header-nav-in'>
-                    <a className='anchorHover' href="#">Contact</a>
-                </li>
             </ul>
         );
     }

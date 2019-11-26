@@ -1,8 +1,8 @@
 import React from 'react';
 import HeaderNav from './HeaderNav';
-import '../../css/Header';
+import '../../css/HeaderText';
 
-export default class Header extends React.Component {
+export default class HeaderText extends React.Component {
     render() {
         return (
             <header id='navbar' className='header'>
@@ -10,7 +10,7 @@ export default class Header extends React.Component {
                     <div className='header-content-left'>
                         <div className='header-content-left-in'>
                             <div className="MR-div">
-                                <p>MR</p>
+                                <p>MMR</p>
                             </div>
                         </div>
                     </div>
