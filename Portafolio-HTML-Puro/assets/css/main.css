@@ -79,7 +79,7 @@ POSICION
  font-size: 17pt;
 
 }
- .main-container{
+ .main-app{
   display: grid;
   grid-template-columns: repeat(auto-fill, 200px);
   grid-gap: 10px;

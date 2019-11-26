@@ -7,7 +7,7 @@ import Zoom from 'react-reveal/Zoom';
 import Skills from './body/skills/Skills';
 import '../css/container/global';
 
-export default class Container extends React.Component {
+export default class App extends React.Component {
     constructor(props) {
         super(props);
         this.state = { show: false };
