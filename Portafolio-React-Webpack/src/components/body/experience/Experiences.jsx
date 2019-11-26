@@ -2,7 +2,7 @@ import React from 'react';
 import ContExp from './ExpContainer';
 import Flip from 'react-reveal/Flip';
 import LightSpeed from 'react-reveal/LightSpeed';
-import '../../../css/Experiences';
+import '../../../css/experience/Experiences';
 
 const sc = require('../../../img/Icons/sc.png');
 const wk = require('../../../img/Icons/wk.png');

@@ -5,7 +5,7 @@ import ThisIsMe from './body/me/ThisIsMe';
 import Experiences from './body/experience/Experiences';
 import Zoom from 'react-reveal/Zoom';
 import Skills from './body/skills/Skills';
-import '../css/global';
+import '../css/container/global';
 
 export default class Container extends React.Component {
     constructor(props) {

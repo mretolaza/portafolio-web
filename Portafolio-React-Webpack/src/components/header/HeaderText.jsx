@@ -1,6 +1,6 @@
 import React from 'react';
 import HeaderNav from './HeaderNav';
-import '../../css/HeaderText';
+import '../../css/header/HeaderText';
 
 export default class HeaderText extends React.Component {
     render() {
