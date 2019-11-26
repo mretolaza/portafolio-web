@@ -68,8 +68,6 @@
 	
 }
 
-
-POSICION
 .menu-list a:hover{
  background-color: #bd92e6;
  color: #6f5499;	
@@ -89,8 +87,6 @@ POSICION
   list-style: none;
 }
 .post_panel {
-   
-
 	border-radius: 15px;
 	padding: 10px;
 	margin-bottom: 1.6em;
@@ -99,7 +95,7 @@ POSICION
 	justify-content: center;
 	list-style: none;
 }
-/*Secciones */
+
 .spotlight{
 	width: 100%;
     height: 500px;
@@ -107,9 +103,7 @@ POSICION
     padding: 0;
     text-align: center;
 }
-/* ---------------------------------------*/
-/* ---------->>> CONTENEDOR <<<-----------*/
-/* ---------------------------------------*/
+
 .box {
 		background: #fff;
 		border-radius: 20px;
@@ -118,13 +112,13 @@ POSICION
         overflow:hidden;
         height:1%;
 	}
-/*Separador de secciones*/
+
 .uk-grid-divider:empty {
     margin-top: 25px;
     margin-bottom: 25px;
     border-top: 1px solid #ddd;
 }
-/*id li lista perfil */h1
+h1
 #margen{
 	padding: 5px;
 }
@@ -135,7 +129,7 @@ POSICION
 .progre{
 	border-radius: 25px;
 }
-/*Titulo de las secciones*/
+
 .centrar{
 	padding: 25px;
     text-align: center;
@@ -144,7 +138,7 @@ POSICION
 .centrar-icon{
 	display: inline-block;
 }
-/*Texto de las secciones*/
+
 .texto{
 	padding: 30px;
 	float: left;
@@ -158,7 +152,7 @@ body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 }
 
 
-/*ANIMATIONS ROTANDO LOS ICONOS*/
+
 .fa-react{
 
 	animation: fa-react-spin infinite 20s linear;
@@ -193,7 +187,7 @@ body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 }
 
 
-/*Estilo de los titulos*/
+
 .text-primary{
 	color: #ffffff;
 	text-shadow: 1px 0 0 #000, -1px 0 0 #000, 0 1px 0 #000, 0 -1px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
@@ -359,7 +353,7 @@ div.pin.post_panel.level-2{
 	 height: 200px;
 	 max-width: 100%;
 	
-    background: #ff0084;  /* fallback for old browsers */
+    background: #ff0084;  
 }
 
 div.pin.post_panel.level-2:hover{
@@ -370,7 +364,7 @@ div.pin.post_panel.level-2:hover{
 	 float: none;
 }
 
-/*Estilo de los titulos margenes amarillos resaltados*/
+
 li.margene{
 	background-color: #ffeb3b;
     color: #605e48;
@@ -387,7 +381,7 @@ li.margene{
     white-space: nowrap;
     vertical-align: baseline;
 }
-/*Estilo de los titulos margenes blancos resaltados*/
+
 li.margene-color{
 	background-color: #fff;
     color: #605e48;
@@ -447,7 +441,6 @@ text-align: right;
 		transform: translateY(1rem);
 		opacity: 0;
 	}
-/* Responsive */
 
 @media screen and (max-width: 1447px) {
 body {
@@ -484,7 +477,7 @@ body {
 
 }
 @media screen and (max-width: 736px) {
-		/* Basic */
+	
 			body {
 				min-width: 320px;
 			}
@@ -513,7 +506,7 @@ body {
 		/* BG */
 }
 @media screen and (max-width: 568px) {
-		/* Basic */
+
 			body {
 				min-width: 220px;
 			}
@@ -529,7 +522,7 @@ body {
 			ul li {
 				font-size: 10pt;
 			}
-		/* BG */
+	
 		.iconos{
 				font-size: 1pt;
                 text-align: center;
@@ -543,7 +536,7 @@ body {
 			}
 }
 @media screen and (max-width: 768px) {
-		/* Basic */
+
 			body {
 				min-width: 1024px;
 			}
@@ -556,7 +549,7 @@ body {
 .texto{
 			 text-align: right;
 		}
-		/* BG */
+
 		ul li {
 				font-size: 15pt;
 			}
@@ -579,7 +572,7 @@ body {
 
 }
 @media screen and (max-width: 375px) {
-		/* Basic */
+
 			body {
 				min-width: 812px;
 				
@@ -593,7 +586,7 @@ body {
 .texto{
 			 text-align: right;
 		}
-		/* BG */
+
 		ul li {
 				font-size: 15pt;
 			}
@@ -612,7 +605,7 @@ body {
 
 }
 @media screen and (max-width: 320px) {
-		/* Basic */
+
 			body {
 				min-width: 568px;
 			}
@@ -627,7 +620,7 @@ body {
 .texto{
 			 text-align: right;
 		}
-		/* BG */
+
 		ul li {
 				font-size: 5pt;
 			}
@@ -650,9 +643,6 @@ body {
 .footer{
 	text-align: right;
 }
-
-	/* Header */
-
 		
 		#header p {
 			font-size: 1em;
