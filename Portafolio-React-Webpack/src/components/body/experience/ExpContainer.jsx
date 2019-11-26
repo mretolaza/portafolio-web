@@ -1,6 +1,6 @@
 import React from 'react';
 import { Row, Col } from 'reactstrap';
-import '../../css/Experiences';
+import '../../../css/Experiences';
 
 export default class Experiences extends React.Component {
     constructor(props) {

@@ -2,11 +2,11 @@ import React from 'react';
 import ContExp from './ExpContainer';
 import Flip from 'react-reveal/Flip';
 import LightSpeed from 'react-reveal/LightSpeed';
-import '../../css/Experiences';
+import '../../../css/Experiences';
 
-const sc = require('../../img/Icons/sc.png');
-const wk = require('../../img/Icons/wk.png');
-const pc = require('../../img/Icons/pc.png');
+const sc = require('../../../img/Icons/sc.png');
+const wk = require('../../../img/Icons/wk.png');
+const pc = require('../../../img/Icons/pc.png');
 
 export default class Experiences extends React.Component {
   

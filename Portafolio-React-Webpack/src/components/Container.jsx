@@ -1,10 +1,10 @@
 import React from 'react';
 import { Parallax } from 'react-parallax';
 import HeaderText from './header/HeaderText';
-import ThisIsMe from './main/ThisIsMe';
-import Experiences from './main/Experiences';
+import ThisIsMe from './body/ThisIsMe';
+import Experiences from './body/experience/Experiences';
 import Zoom from 'react-reveal/Zoom';
-import Skills from './main/Skills';
+import Skills from './body/Skills';
 import '../css/global';
 
 export default class Container extends React.Component {
