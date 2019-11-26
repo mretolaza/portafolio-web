@@ -1,0 +1,104 @@
+
+.div1-am{
+    width: 100%;
+    background-color: rgb(25, 24, 26);
+}
+
+.p-am{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    color: whitesmoke;
+}
+.p-am-des{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    color: whitesmoke;
+    padding-top: 25%;
+    margin: 0%;
+    text-align: justify;
+}
+
+.h4-am{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+    color: whitesmoke;
+}
+
+.div-title{
+    align-content: center;
+    margin-left: 6%;
+}
+
+.title-am{
+    width: 80%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+    padding: 1em;
+    padding-bottom: 0.4em;
+    padding-top: 0.5em;
+    margin-left: 2.5em;
+    color: whitesmoke;
+    border-bottom: 1px solid whitesmoke;
+}
+
+.div-image{
+    width: 90%;
+    align-content: center;
+    margin: 0%;
+    padding-left: 5%; 
+}
+
+.image-me{
+    width: 60%;
+    border: 5px solid rgba(47, 45, 48, 0.85);
+    align-content: center;
+    margin-left: 32%;
+}
+
+.column-center{
+    margin: 1em;
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+.column-right{
+    margin: 1em;
+    padding-right: 0%;
+}
+.column-left{
+    margin: 1em;
+    padding-left: 0%;
+    margin-left: 0%;
+}
+.column-div{
+    text-align: left;
+    padding-left: 30%;
+    padding-top: 18%;
+}
+
+.column-div-2{
+    text-align: left;
+    padding-right: 28%;
+}
+
+.extra-div{
+    width: 5%;
+    padding-top: 10%;
+}
+
+.row{
+    width: 100%;
+}
+
+.anchor-am{
+    text-decoration: none;
+    transition-duration: 0.25s;
+    color:rgb(124, 179, 190);
+}
+
+.anchor-am:hover{
+    text-decoration: none;
+    transition-duration: 0.25s;
+    color:rgba(147, 183, 190, 0.85);
+}
