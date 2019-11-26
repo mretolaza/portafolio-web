@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../css/Skills';
+import '../../../css/Skills';
 
 export default class AbilitiesModule extends React.Component {
     constructor(props) {

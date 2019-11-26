@@ -4,7 +4,7 @@ import HeaderText from './header/HeaderText';
 import ThisIsMe from './body/ThisIsMe';
 import Experiences from './body/experience/Experiences';
 import Zoom from 'react-reveal/Zoom';
-import Skills from './body/Skills';
+import Skills from './body/skills/Skills';
 import '../css/global';
 
 export default class Container extends React.Component {

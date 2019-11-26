@@ -1,7 +1,7 @@
 import React from 'react';
 import SkilssMod from './SkillsPath';
 import { Row, Col } from 'reactstrap';
-import '../../css/Skills';
+import '../../../css/Skills';
 
 export default class Skills extends React.Component {
 
