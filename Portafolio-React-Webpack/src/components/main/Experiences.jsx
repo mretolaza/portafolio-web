@@ -4,9 +4,9 @@ import Flip from 'react-reveal/Flip';
 import LightSpeed from 'react-reveal/LightSpeed';
 import '../../css/Experiences';
 
-const school = require('../../images/Icons/school.png');
-const gears = require('../../images/Icons/gears.png');
-const code = require('../../images/Icons/code.png');
+const sc = require('../../img/Icons/sc.png');
+const wk = require('../../img/Icons/wk.png');
+const pc = require('../../img/Icons/pc.png');
 
 export default class Experiences extends React.Component {
   
@@ -25,15 +25,15 @@ export default class Experiences extends React.Component {
                                 Description="I'm currently in my third year of my career. I will take a specialization in computer security 
                                 and I love UI/UX experience. I am making my experience at the university a unique experience I learn 
                                 every day and every moment something new. "
-                                src={code}>                        
+                                src={pc}>                        
                             </ContExp>
                             <ContExp 
                                 Name='Colegio Suizo Americano' 
                                 Date='Jan 2002 - Oct 2015' 
                                 Acknowledgment='Primary - Middle School Studies - Bach' 
                                 Description="I obtained a medal of excellence and experience for my stay for 16 years and my excellent behavior 
-                                in the school. I was a <bach> in computer science and I learned to program from the age of 13."
-                                src={school}>                        
+                                in the sc. I was a <bach> in computer science and I learned to program from the age of 13."
+                                src={sc}>                        
                             </ContExp>
                         </Flip>   
                         <div className='div-line'></div>
@@ -47,7 +47,7 @@ export default class Experiences extends React.Component {
                                 graduating process I had to work here for about 4 months, fixing diferent kinds of 
                                 electronic devices as electronic balances, sealers, labellers and more. It was a good 
                                 experience realize how it feels to have a full time job."
-                                src={gears}>                        
+                                src={wk}>                        
                             </ContExp> 
                             <ContExp 
                                 Name='Inédito S.A' 
@@ -57,7 +57,7 @@ export default class Experiences extends React.Component {
                                 graduating process I had to work here for about 4 months, fixing diferent kinds of 
                                 electronic devices as electronic balances, sealers, labellers and more. It was a good 
                                 experience realize how it feels to have a full time job."
-                                src={gears}>                        
+                                src={wk}>                        
                             </ContExp>
                             <ContExp 
                                 Name='Startrack S.A' 
@@ -67,7 +67,7 @@ export default class Experiences extends React.Component {
                                 graduating process I had to work here for about 4 months, fixing diferent kinds of 
                                 electronic devices as electronic balances, sealers, labellers and more. It was a good 
                                 experience realize how it feels to have a full time job."
-                                src={gears}>                        
+                                src={wk}>                        
                             </ContExp>
                         </LightSpeed>                      
                     </div>

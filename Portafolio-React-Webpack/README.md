@@ -22,7 +22,6 @@ This project features the following tools:
 - 🚀 **Webpack**  — 4.40.2 - Work in a modular approach
 - 💅 **SASS** — Styled Components
 - 💖 **Lint** — ESlint
-- :camera: **Image loaders** — 6.0.0 - Standardize your images 
 
 ## Instructions 
 

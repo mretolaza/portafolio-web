@@ -5,7 +5,7 @@ import Zoom from 'react-reveal/Zoom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../../css/ThisIsMe';
 
-const Me = require('../../images/mm.jpeg');
+const Me = require('../../img/assets/mm.jpeg');
 
 export default class ThisIsMe extends React.Component {
     constructor() {

@@ -36,7 +36,7 @@ export default class Container extends React.Component {
                 <HeaderText />
                 <Parallax
                     blur={0}
-                    bgImage={require('../images/skyme.JPG')}
+                    bgImage={require('../img/assets/rtc.JPG')}
                     bgImageAlt="Rotaract"
                     strength={200}
                 >
